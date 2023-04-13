@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+body::-webkit-scrollbar {   
+    display: none;
+  }
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-slideshow {
+    width: 100%;
+    height: 840px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-image: url("../images/savana.jpg");
+    background-position: center;
+  }
+  .home-details {
+    left: 6%;
+    width: 36%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-text {
+    font-family: Montserrat;
+  }
+  .home-text01 {
+    font-size: 108px;
+    font-family: Montez;
+    margin: 0;
+    font-weight: 400;
+  }
+  .home-text02 {
+    font-size: 16px;
+    text-align: center;
+    font-family: Poppins;
+    margin-bottom: 4%;
+  }
+  .home-button {
+    width: 206px;
+    border: 4px solid black;
+    height: 52px;
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    border-radius: 0;
+  }
+  .home-offer1 {
+    width: 100%;
+    display: flex;
+  }
+  .home-bg-offer1 {
+    width: 32%;
+    display: flex;
+    background: linear-gradient(180deg, #D9DCE6 0%, #D6D9E4 29.6%, #C8CCD7 61.23%, #A9ADB8 100%);
+    align-content: center;
+    justify-content: center;
+  }
+  .home-details1 {
+    margin: 16% 10% 0 16%;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-h1 {
+    font-size: 64px;
+    font-family: Montez;
+    font-weight: 400;
+    margin-bottom: 6%;
+  }
+  .home-desc {
+    font-size: 12px;
+    font-family: Poppins;
+    margin-bottom: 10%;
+  }
+  .home-btn {
+    width: 206px;
+    border: 4px solid black;
+    height: 52px;
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    border-radius: 0;
+  }
+  .home-image {
+    width: 68%;
+    object-fit: cover;
+  }
+  .home-offer2 {
+    width: 100%;
+    display: flex;
+  }
+  .home-img-offer2 {
+    width: 32%;
+  }
+  .home-image1 {
+    width: 100%;
+  }
+  .home-bg-offer2 {
+    width: 68%;
+    display: flex;
+    background:  #DDDDDD;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-details2 {
+    width: 34%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-image2 {
+    width: 50%;
+  }
+  .home-collection {
+    width: 100%;
+    display: flex;
+  }
+  .home-bg-collection {
+    width: 32%;
+    display: flex;
+    background: #E3E9E8;
+    align-content: center;
+    justify-content: center;
+  }
+  .home-details3 {
+    margin: 16% 10% 0 16%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-image3 {
+    width: 68%;
+    object-fit: cover;
+  }
+  
